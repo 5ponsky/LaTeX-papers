@@ -1,0 +1,194 @@
+\documentclass[oneside,11pt]{amsart}
+
+\usepackage{url}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{graphics,graphicx}
+\usepackage{verbatim}
+
+\topmargin=0in
+\oddsidemargin=0in
+\evensidemargin=0in
+\textwidth=6.5in 
+\textheight=8.5in
+
+
+\newcommand{\FF}{\mathbf F}
+\newcommand{\ZZ}{\mathbf Z}
+\newcommand{\RR}{\mathbf R}
+\newcommand{\QQ}{\mathbf Q}
+\newcommand{\CC}{\mathbf C}
+\newcommand{\NN}{\mathbf N}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\lcm}{\operatorname{lcm}}
+
+\newcommand{\GL}{\operatorname{GL}}
+\newcommand{\SL}{\operatorname{SL}}
+\newcommand{\Heis}{\operatorname{Heis}}
+
+
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\Aut}{\operatorname{Aut}}
+
+
+\DeclareFontFamily{OT1}{rsfs}{}
+\DeclareFontShape{OT1}{rsfs}{n}{it}{<-> rsfs10}{}
+\DeclareMathAlphabet{\mathscr}{OT1}{rsfs}{n}{it}
+
+
+
+%Customized Theorem Environments
+\newtheoremstyle%
+{custom}%
+{}%                         Space above
+{}%													Space below
+{}%													Body font
+{}%                         Indent amount
+{}%                         Theorem head font
+{.}%                        Punctuation after heading
+{ }%                        Space after heading
+{\thmname{}%                Additional specifications for theorem head
+\thmnumber{}%
+\thmnote{\bfseries #3}}%
+
+\newtheoremstyle%
+{Theorem}%
+{}%
+{}%
+{\itshape}%
+{}%
+{}%
+{.}%
+{ }%
+{\thmname{\bfseries #1}%
+\thmnumber{\;\bfseries #2}%
+\thmnote{\;(\bfseries #3)}}%
+
+%Theorem Environments
+\theoremstyle{Theorem}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+%\newtheorem{prop}{Proposition}[section]
+\theoremstyle{definition}
+\newtheorem{dff}[thm]{Definition}
+\newtheorem{xmp}[thm]{Example}
+\newtheorem{remark}[thm]{Remark}
+\newtheorem{conj}[thm]{Conjecture}
+
+
+\def\mbf{\mathbf}
+\def\mcal{\mathcal}
+
+\def\fa{\mathfrak{a}}
+\def\fb{\mathfrak{b}}
+\def\fn{\mathfrak{n}}
+\def\fp{\mathfrak{p}}
+
+\def\nsg{\vartriangleleft}
+\def\tn{\textnormal}
+
+\newcommand{\Sym}{\operatorname {Sym}}
+\newcommand{\Tr}{\operatorname {Tr}}
+
+\newcommand{\tmat}[4]{ \left( \begin{smallmatrix} #1 & #2 \\ #3 & #4 \end{smallmatrix} \right)}
+
+\def\cB{\mathcal{B}}
+\def\cC{\mathcal{C}}
+\def\cD{\mathcal{D}}
+
+
+\title{Template: Math 3113, Homework 2}
+\author{ Author = You}
+
+\begin{document}
+
+\maketitle
+
+\vspace{-5mm}
+
+
+
+
+\begin{enumerate}
+
+\item The following questions concern finding formula and utilizing induction. 
+\begin{enumerate}
+\item For $g$ and $h$ in a group $G$, prove that $(gh)^n = g (hg)^{n-1} h$ for all $n > 0$. 
+\begin{proof}
+
+\end{proof}
+\item For $g$ and $h$ in a group $G$, prove that $(gh)^n = e$ if and only if $(hg)^n = e$. Does this force $gh = hg$? 
+\begin{proof}
+
+\end{proof}
+
+\end{enumerate}
+
+\newpage
+
+
+\item What is the cycle decomposition of $$ \left( \begin{matrix} 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 5 & 7 & 8 & 3 & 1 & 2 & 6 & 4 \end{matrix} \right) .$$
+
+\begin{proof}
+
+\end{proof}
+
+
+\newpage
+
+
+\item  Suppose $G$ is a cyclic group of order $144$. How many elements are in the subgroup $\langle g^{26} \rangle$? How many subgroups contain this subgroup? 
+
+\begin{proof}
+
+\end{proof}
+
+\newpage
+
+\item Which of the following subsets are subgroups of $\GL_2(\RR)$?
+\begin{enumerate}
+\item $\left \{ \left( \begin{smallmatrix} a & b \\ 0 & c \end{smallmatrix} \right) \colon a, c \neq 0 \right \}.$
+
+\item $\left \{ \left( \begin{smallmatrix} a & b \\ 1/b & 1/a \end{smallmatrix} \right) \colon a,b \neq 0 \right \}.$
+\item $\left \{ \left( \begin{smallmatrix} a & b \\ c & d \end{smallmatrix} \right) \colon ad-bc = 1  \right \}.$
+\item $\left \{ \left( \begin{smallmatrix} a & b \\ 0 & 1 \end{smallmatrix} \right) \colon a \neq 0  \right \}.$
+\end{enumerate}
+\begin{proof}
+
+\end{proof}
+
+\newpage
+
+
+\item Fix $G = (\ZZ/7\ZZ)^\times$ and $g = a \bmod 7$ with $(a,7) = 1$. Consider the function $\varphi_a \colon G \to G$ defined by $\varphi( x \bmod 7) \mapsto 2x \bmod 7$. 
+\begin{enumerate}
+\item Show that $\varphi_a$ is a bijection. 
+\begin{proof}
+
+\end{proof}
+\item Prove that $\varphi_a \circ \varphi_b = \varphi_{ab}$. 
+\begin{proof}
+
+\end{proof}
+\item Show that the ordered set $\{ \varphi_a(1 \bmod 7), \ldots, \varphi_a(6 \bmod 7) \}$ is a permutation of the standard representatives modulo $7$. 
+\begin{proof}
+
+\end{proof}
+\item What is the cycle decomposition of the permutation corresponding to $\varphi_3$? 
+\begin{proof}
+
+\end{proof}
+\item Is every permutation in $S_6$ realized this way? 
+\begin{proof}
+
+\end{proof}
+\end{enumerate}
+
+\end{enumerate}
+
+
+
+\end{document}
