@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.24)  1 OCT 2018 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.24)  2 OCT 2018 14:41
 entering extended mode
 **./Homework2.tex
 (Homework2.tex
@@ -311,7 +311,7 @@ Package tocloft Info: The document has section divisions on input line 51.
 LaTeX Warning: Unused global option(s):
     [20pt].
 
-No file Homework2.aux.
+(Homework2.aux)
 \openout1 = `Homework2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -326,6 +326,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -425,46 +426,56 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 [1
 
 {C:/Users/lgdillin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Homework2.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+[2] (Homework2.aux) ) 
 Here is how much of TeX's memory you used:
- 5164 strings out of 492972
- 76614 string characters out of 3143401
- 158741 words of memory out of 3000000
+ 5166 strings out of 492972
+ 76688 string characters out of 3143401
+ 159741 words of memory out of 3000000
  8966 multiletter control sequences out of 15000+200000
  9917 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,6n,43p,278b,181s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/miketex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/mike
-tex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/miketex/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/mi
-ketex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/miketex/fonts/type1/public/a
-msfonts/cm/cmr7.pfb><C:/miketex/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/m
-iketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Homework2.pdf (1 page, 89148 bytes).
+ 44i,10n,43p,573b,196s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/miketex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+miketex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/miketex/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><C:/miketex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/miketex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/miketex/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><C:/miketex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/miketex/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/miketex/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb>
+Output written on Homework2.pdf (2 pages, 107693 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
